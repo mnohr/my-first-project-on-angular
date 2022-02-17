@@ -1,0 +1,9 @@
+<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p> 
+<p>Default Button:</p>
+<button class="btn btn-primary" type="submit">Button</button>
+
+<p>Equivalent example using Button:</p>
+<button class="btn" 
+        [class.btn-primary]="true" 
+        type="submit">Button
+</button>
